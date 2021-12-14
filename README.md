@@ -35,8 +35,8 @@ g++ -fpic -shared -I tree-sitter/lib/include  tree-sitter-ruby/src/scanner.cc -o
 gcc  -fPIC  -shared -I /usr/lib/jvm/{OPEN_JDK_PATH}/include -I /usr/lib/jvm/{OPEN_JDK_PATH}/include/linux -I tree-sitter/lib/include tree-sitter-ruby/src/parser.c  src/Treesitter.c -o  libjnicode.so -Ltree-sitter -l:libtree-sitter.a -L. -Wl,-rpath=. -Wall  -lscan -w
 ```
 
-For me the `{OPEN_JDK_PATH}` is `java-11-openjdk-amd64`
-If compiler says `jni.h` file is missing, try `sudo apt install default-jdk`
+For me the `{OPEN_JDK_PATH}` is `java-11-openjdk-amd64`.
+If compiler says `jni.h` file is missing, try `sudo apt install default-jdk`.
 
 4) Compile all .java files in `/src` folder
 ```sh
