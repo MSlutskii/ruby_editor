@@ -14,7 +14,7 @@ Simple Ruby code editor that implements syntax highligh using `tree-sitter`.
 
 #### Dependencies
 - Ubuntu 20.04
-- Java 11.0.11
+- Java 11.0.11 (including JDK)
 - gcc, g++ 9.3.0
 - make (to build tree-sitter library)
  
