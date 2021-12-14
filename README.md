@@ -36,6 +36,7 @@ gcc  -fPIC  -shared -I /usr/lib/jvm/{OPEN_JDK_PATH}/include -I /usr/lib/jvm/{OPE
 ```
 
 For me the `{OPEN_JDK_PATH}` is `java-11-openjdk-amd64`
+If compiler says `jni.h` file is missing, try `sudo apt install default-jdk`
 
 4) Compile all .java files in `/src` folder
 ```sh
