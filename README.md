@@ -36,6 +36,7 @@ gcc  -fPIC  -shared -I /usr/lib/jvm/{OPEN_JDK_PATH}/include -I /usr/lib/jvm/{OPE
 ```
 
 For me the `{OPEN_JDK_PATH}` is `java-11-openjdk-amd64`
+
 4) Compile all .java files in `/src` folder
 ```sh
 javac -d . src/*.java 
