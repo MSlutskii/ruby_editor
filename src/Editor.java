@@ -15,7 +15,7 @@ class Editor implements ActionListener {
   JTextPane textPane;
   JFrame frame;
 
-  static String QUERY_PATH = "tree-sitter-ruby/queries/highlights.scm";
+  static String QUERY_PATH = "query.scm";
   static String TYPE_ID_TO_COLOR = "typeIdToColor.txt";
   private static Parser parser;
   private static Query query;
